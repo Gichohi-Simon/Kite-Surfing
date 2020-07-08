@@ -1,0 +1,67 @@
+ /*
+ this is a bad habit, its just for us to see the color codes.
+    color codes
+
+    white:#ffffff;
+    blood-red:#d71d1d;
+    bright-red: #ff0000;
+    dark-red:#BF0000;
+    black:#000000;
+    grey:#ebebeb;
+ */
+
+.wrap{
+     /* makes sure all the content stays in the browser window */
+    overflow-x: hidden;
+    font-family: sans-serif;
+    color: #505962;
+}
+
+/* ------NAVBAR------ */
+.navbar {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size:.9rem;
+    letter-spacing: .1rem;
+    /* emphasis the transparency */
+     /* background:rgba(0,0,0,.6)!important;  */
+}
+
+/* for the image */
+.navbar-brand img {
+    height: 2rem;
+}
+
+/* for the unorderd list */
+/* .navbar-nav li{
+    padding-right: 7rem;
+} */
+
+/* overrides the link colors */
+
+.navbar-dark .navbar-nav .nav-link{
+    color: white;
+    padding-top: .8em;
+}
+
+.navbar-dark .navbar-nav .nav-link.active
+{
+    color:#ffffff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: tomato;
+}
+
+/*--------SLIDER-------- */
+
+/* for the image slider */
+.carousel-item{
+    height:100vh;
+
+}
+
+.carousel-caption{
+    position: absolute;
+    top :300px;
+}
