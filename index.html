@@ -31,7 +31,7 @@
                         <a class="nav-link" href="#home">Todays weather</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#home">Contact</a>
+                        <a class="nav-link" href="#contacts">Contacts</a>
                     </li>
                 </ul>
             </div>
@@ -48,7 +48,7 @@
     
                 <div class="carousel-inner" role="listbox">
                     <!-- slide one -->
-                    <div class="carousel-item active" style="background: url(images/kite.jpg); background-size: cover;"></div>
+                    <div class="carousel-item active" style="background: url(images/kite.jpg); background-size: cover; background-position: center; background-repeat: no-repeat;"></div>
                         <div class="carousel-caption text-center" >
                             <h1>Welcome To Kenya Kitesurfing Schools</h1>
                             <h3>learn KiteSurfing from the best.</h3>
@@ -57,41 +57,40 @@
                         </div>
                     
                     <!-- slide 2 -->
-                     <div class="carousel-item " style="background: url(images/skill.jpg); background-size: cover;"> </div>
+                     <div class="carousel-item " style="background: url(images/skill.jpg); background-size: cover;  background-position: center; background-repeat: no-repeat"> </div>
                         
                     <!-- slide 3 -->
-                    <div class="carousel-item " style="background: url(images/coral.jpg); background-size: cover;"></div>
+                    <div class="carousel-item " style="background: url(images/coral.jpg); background-size: cover; background-position: center; background-repeat: no-repeat"></div>
         </div>
         <!-- end of home segment -->
     
     
         <!-- lessons segment starts here -->
-        <div class="lessons">
-
-                
+        <div id="lessons">
+       
         </div>
         <!-- lessons segments ends here -->
     
     
         <!--weather segment starts here  -->
-        <div class="todays-weather">
+        <div id="todays-weather">
     
         </div>
         <!-- weather segment ends here -->
     
     
         <!-- contact us starts here -->
-        <div class="contacts">
-           <!--Section: Contact v.2-->
-<section class="mb-4">
+        <div id="contacts">
 
-    <!--Section heading-->
-    <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
-    <!--Section description-->
-    <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
-        a matter of hours to help you.</p>
+        <section class="mb-4">
 
-    <div class="row">
+             <!--Section heading-->
+             <h2 class="h1-responsive font-weight-bold text-center my-4">Contact us</h2>
+             <!--Section description-->
+             <p class="text-center w-responsive mx-auto mb-5">Do you have any questions? Please do not hesitate to contact us directly. Our team will come back to you within
+                a matter of hours to help you.</p>
+
+        <div class="row">
 
         <!--Grid column-->
         <div class="col-md-9 mb-md-0 mb-5">
@@ -143,16 +142,18 @@
                             <label for="message">Your message</label>
                         </div>
 
+                        <div class="text-center text-md-left">
+                            <a class="btn btn-primary" onclick="validateForm();">Send</a>
+                        </div>
+                        <div class="status"></div>
                     </div>
+                    
                 </div>
                 <!--Grid row-->
 
             </form>
 
-            <div class="text-center text-md-left">
-                <a class="btn btn-primary" onclick="validateForm();">Send</a>
-            </div>
-            <div class="status"></div>
+           
         </div>
         <!--Grid column-->
 
@@ -176,14 +177,13 @@
 
     </div>
 
-</section>
-<!--Section: Contact v.2-->
-        </div>
-        <!-- contact us ends here -->
+           </section>
+         </div>
+            <!-- contact us ends here -->
     
     
         <!-- geolocation segement -->
-        <div class="location">
+        <div id="location">
     
         </div>
         <!-- geolocation segment ends here -->
