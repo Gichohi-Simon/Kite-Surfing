@@ -13,7 +13,7 @@
 .wrap{
      /* makes sure all the content stays in the browser window */
     overflow-x: hidden;
-    font-family: Arial,sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: #505962;
 
 }
@@ -27,6 +27,7 @@
     /* emphasis the transparency */
      /* background:rgba(0,0,0,.6)!important;  */
 }
+
 
 /* for the image */
 .navbar-brand img {
@@ -74,3 +75,55 @@
     color:white;
 }
 
+
+/* ----------------CONTACTS FORM---------------- */
+
+#contacts{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+}
+
+#contacts .row {
+    margin-left: 100px;
+}
+
+/*-------------------MEDIA QUERIES----------------*/
+@media only screen and (max-width: 768px){
+
+    .navbar{
+        font-size: small;
+    }
+    
+    /* ---------slider-----------*/
+    
+
+    .carousel-caption{
+        position: absolute;
+        font-weight:bold;
+    }
+
+    .carousel-caption h1{
+        font-size: small;
+    }
+
+    .carousel-caption h3{
+        font-size: small;
+    }
+
+    .carousel-caption a {
+        font-size: small;
+    }
+    
+    /*------- contact form-------- */
+    #contacts{
+        font-size: small;
+    }
+
+    #contacts .row{
+        margin: 0px 10px 0px 10px;
+    }
+}
+
+@media only screen and (max-width: 480px){
+    
+}
