@@ -127,3 +127,47 @@
 @media only screen and (max-width: 480px){
     
 }
+ /*------- lessons/ rentals-------- */
+
+.row {
+    margin-top: 50px; 
+    
+}
+.row .col-md-4{
+    padding: 40px;
+}
+
+.row .col-md-4 .card-body{
+    text-align: center;
+    background-color:#f4f8fa;
+    
+}
+.row .col-md-4 .card-body:hover{
+    cursor: pointer;
+    background-color:#f4f8fa;
+    
+    box-shadow: 10px 10px 5px grey;
+}
+.row .col-md-4 .p-3 .font-weight-medium {
+
+    font-weight: 500;
+
+}.row .col-md-4 .p-3 .subtitle{
+    color: #8d97ad;
+    line-height: 24px;
+}
+
+.row .col-md-4 .p-3 .list-inline{
+    text-align: justify;
+    font-size: 14px;
+}
+
+.row .col-md-4 .p-3 .list-inline .py-1 .fa-check-circle{
+
+    color: #ff0000; 
+}
+
+.row .col-md-4 .p-3 .pricing .price{
+    color: black;
+    font-size: 12px;
+}
