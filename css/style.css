@@ -13,7 +13,7 @@
 .wrap{
      /* makes sure all the content stays in the browser window */
     overflow-x: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #505962;
 
 }
@@ -32,6 +32,7 @@
 /* for the image */
 .navbar-brand img {
     height: 2rem;
+    width: 150px;
 }
 
 /* for the unorderd list */
@@ -124,11 +125,14 @@
 #contacts{
     /* font-family: 'Courier New', Courier, monospace; */
     font-weight: bold;
+    background-image:url("images/skill.jpg");
 }
 
 #contacts .row {
     margin-left: 100px;
 }
+
+
 
 /*-------------------MEDIA QUERIES----------------*/
 @media only screen and (max-width: 768px){
