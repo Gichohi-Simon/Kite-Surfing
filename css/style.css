@@ -15,7 +15,14 @@
     overflow-x: hidden;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #505962;
+    
+}
 
+#lessons,#todays-weather,#contacts,#location{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 
 /* ------NAVBAR------ */
@@ -27,7 +34,6 @@
     /* emphasis the transparency */
      /* background:rgba(0,0,0,.6)!important;  */
 }
-
 
 /* for the image */
 .navbar-brand img {
@@ -75,103 +81,21 @@
     background:red;
     color:white;
 }
+
 /*------- lessons/ rentals-------- */
 
-.row {
-    margin-top: 50px; 
-    
-}
-.row .col-md-4{
-    padding: 40px;
-}
+/*------- end of lessons/ rentals-------- */
 
-.row .col-md-4 .card-body{
-    text-align: center;
-    background-color:#f4f8fa;
-    
-}
-.row .col-md-4 .card-body:hover{
-    cursor: pointer;
-    background-color:#f4f8fa;
-    
-    box-shadow: 10px 10px 5px grey;
-}
-.row .col-md-4 .p-3 .font-weight-medium {
-
-    font-weight: 500;
-
-}.row .col-md-4 .p-3 .subtitle{
-    color: #8d97ad;
-    line-height: 24px;
-}
-
-.row .col-md-4 .p-3 .list-inline{
-    text-align: justify;
-    font-size: 14px;
-}
-
-.row .col-md-4 .p-3 .list-inline .py-1 .fa-check-circle{
-
-    color: #ff0000; 
-}
-
-.row .col-md-4 .p-3 .pricing .price{
-    color: black;
-    font-size: 12px;
-}
 
 /* ----------------CONTACTS FORM---------------- */
 
-#contacts{
-    /* font-family: 'Courier New', Courier, monospace; */
-    font-weight: bold;
-    background-image:url("images/skill.jpg");
+/* ----------------END OF CONTACTS FORM SECTION---------------- */
+
+
+/* ----------------lOCATION SECTION---------------- */
+#location{
+    background-image: url('image/one-mzungu.jpg');  
 }
-
-#contacts .row {
-    margin-left: 100px;
-}
-
-
+/* ----------------END OF LOCATION SECTION---------------- */
 
 /*-------------------MEDIA QUERIES----------------*/
-@media only screen and (max-width: 768px){
-
-    .navbar{
-        font-size: small;
-    }
-    
-    /* ---------slider-----------*/
-    
-
-    .carousel-caption{
-        position: absolute;
-        font-weight:bold;
-    }
-
-    .carousel-caption h1{
-        font-size: small;
-    }
-
-    .carousel-caption h3{
-        font-size: small;
-    }
-
-    .carousel-caption a {
-        font-size: small;
-    }
-    
-    /*------- contact form-------- */
-    #contacts{
-        font-size: small;
-    }
-
-    #contacts .row{
-        margin: 0px 10px 0px 10px;
-    }
-}
-
-@media only screen and (max-width: 480px){
-    
-}
- 
