@@ -18,7 +18,7 @@
     
 }
 
-#lessons,#todays-weather,#contacts,#location{
+#lessons,#todays-weather,#contacts,#footer{
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -82,20 +82,143 @@
     color:white;
 }
 
-/*------- lessons/ rentals-------- */
+#about,#contacts,#footer{
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+}
 
-/*------- end of lessons/ rentals-------- */
+
+/*-------LESSONS/RENTALS-------- */
+.row {
+    margin-top: 50px;
+ 
+ }
+ .row .col-md-4{
+    padding: 40px;
+ }
+ 
+ .row .col-md-4 .card-body{
+    text-align: center;
+    background-color:#f4f8fa;
+ 
+ }
+ .row .col-md-4 .card-body:hover{
+    cursor: pointer;
+    background-color:#f4f8fa;
+ 
+    box-shadow: 10px 10px 5px grey;
+ }
+ .row .col-md-4 .p-3 .font-weight-medium {
+ 
+    font-weight: 500;
+ 
+ }.row .col-md-4 .p-3 .subtitle{
+    color: #8d97ad;
+    line-height: 24px;
+ }
+ 
+ .row .col-md-4 .p-3 .list-inline{
+    text-align: justify;
+    font-size: 14px;
+ }
+ 
+ .row .col-md-4 .p-3 .list-inline .py-1 .fa-check-circle{
+ 
+    color: #ff0000;
+ }
+ 
+ .row .col-md-4 .p-3 .pricing .price{
+    color: black;
+    font-size: 12px;
+ }
+ 
+/*------- END OF LESSONS/RENTALS------- */
 
 
-/* ----------------CONTACTS FORM---------------- */
+/*------------ABOUT SECTION---------*/
+#about{
+    height: 400px;
+  }
+/*------------END OF ABOUT SECTION---------*/
 
-/* ----------------END OF CONTACTS FORM SECTION---------------- */
+
+/*------------WEATHER SECTION---------*/
+#todays-weather{
+    height: 400px;
+}
+/*------------END OF WEATHER SECTION---------*/
+
+
+/*----------------CONTACTS FORM---------------- */
+  #contacts{
+    /* font-family: 'Courier New', Courier, monospace; */
+    font-weight: bold;
+    min-height: 100%;
+ }
+ 
+ #contacts .row {
+    margin-left: 100px;
+ }
+ 
+/*----------------END OF CONTACTS FORM---------------- */
 
 
 /* ----------------lOCATION SECTION---------------- */
 #location{
-    background-image: url('image/one-mzungu.jpg');  
+      
 }
 /* ----------------END OF LOCATION SECTION---------------- */
 
+
+/*------------FOOTER SECTION---------*/
+#footer{
+    height: 400px;
+    min-height: 100%;
+  }
+/*------------END OF FOOTER SECTION---------*/
+
+
 /*-------------------MEDIA QUERIES----------------*/
+@media only screen and (max-width: 768px){
+
+    .navbar{
+        font-size: small;
+    }
+ 
+    /* ---------slider-----------*/
+ 
+ 
+    .carousel-caption{
+        position: absolute;
+        font-weight:bold;
+    }
+ 
+    .carousel-caption h1{
+        font-size: small;
+    }
+ 
+    .carousel-caption h3{
+        font-size: small;
+    }
+ 
+    .carousel-caption a {
+        font-size: small;
+    }
+ 
+    /*------- contact form-------- */
+    #contacts{
+        font-size: small;
+    }
+ 
+    #contacts .row{
+        margin: 0px 10px 0px 10px;
+    }
+ }
+ 
+ @media only screen and (max-width: 480px){
+ 
+ }
+ 
