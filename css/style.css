@@ -18,12 +18,7 @@
     
 }
 
-#lessons,#todays-weather,#contacts,#footer{
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-}
+
 
 /* ------NAVBAR------ */
 .navbar {
@@ -82,14 +77,11 @@
     color:white;
 }
 
+/* --------------------- */
 #about,#contacts,#footer{
     position: relative;
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
     background-attachment: fixed;  
 }
-
 
 /*-------LESSONS/RENTALS-------- */
 .row {
@@ -140,7 +132,21 @@
 
 /*------------ABOUT SECTION---------*/
 #about{
-    height: 400px;
+    background-image: url("../images/two-mzungu.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;  
+    height: 600px;
+    color: white;
+    position: relative;
+    padding-top: 100px;
+    
+  }
+
+  #about h3{
+    text-align: center;
   }
 /*------------END OF ABOUT SECTION---------*/
 
@@ -155,13 +161,36 @@
 /*----------------CONTACTS FORM---------------- */
   #contacts{
     /* font-family: 'Courier New', Courier, monospace; */
+    background-image: url("../images/coral-mzungu.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;  
     font-weight: bold;
+    height: 800px;
     min-height: 100%;
+    padding: 30px;
+    color: white;
+
  }
  
  #contacts .row {
     margin-left: 100px;
  }
+
+ #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #name{
+     height: 60px;
+     color: white;
+     border: none;
+ }
+ #contacts .col-md-9 .row .col-md-12 .md-form #message{
+    height: 100px; 
+ }
+
+#contacts .col-md-9 .row .col-md-12 .btn-primary{
+    margin-top: 20px;
+}
  
 /*----------------END OF CONTACTS FORM---------------- */
 
@@ -175,8 +204,26 @@
 
 /*------------FOOTER SECTION---------*/
 #footer{
-    height: 400px;
+    background-image: url("../images/skill-white.jpg"); 
+    background-size:cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;  
+    height: 800px;
     min-height: 100%;
+    margin-top: 40%;
+   
+  }
+
+  #footer #footer-text{
+    position: relative;
+    text-align: center;
+    top:100px;
+    font-weight: bold;
+    color: #ffffff;
+
+
   }
 /*------------END OF FOOTER SECTION---------*/
 
