@@ -141,7 +141,7 @@
     height: 600px;
     color: white;
     position: relative;
-    padding-top: 100px;
+    padding-top: 50px;
     
   }
 
@@ -153,7 +153,16 @@
 
 /*------------WEATHER SECTION---------*/
 #todays-weather{
-    height: 400px;
+    height: 600px;
+    text-align: center;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+}
+
+#todays-weather p{
+    padding-top: 20px;
 }
 /*------------END OF WEATHER SECTION---------*/
 
@@ -171,7 +180,7 @@
     height: 800px;
     min-height: 100%;
     padding: 30px;
-    color: white;
+    color:white;
 
  }
  
@@ -180,12 +189,22 @@
  }
 
  #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #name{
-     height: 60px;
-     color: white;
+     height: 50px;
      border: none;
  }
+
+ #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #email{
+    height: 50px;
+    border: none;
+}
+
+#contacts .mb-4 .row .col-md-9 #contact-form .col-md-12 .md-form #subject{
+    height: 50px;
+    border: none;
+}
+
  #contacts .col-md-9 .row .col-md-12 .md-form #message{
-    height: 100px; 
+    height: 120px; 
  }
 
 #contacts .col-md-9 .row .col-md-12 .btn-primary{
@@ -195,36 +214,44 @@
 /*----------------END OF CONTACTS FORM---------------- */
 
 
-/* ----------------lOCATION SECTION---------------- */
-#location{
-      
+/* ----------------GEOlOCATION SECTION---------------- */
+ #googleMap{
+    width:100%;
+    height:600px;
 }
-/* ----------------END OF LOCATION SECTION---------------- */
+/* ----------------END OF GEOLOCATION SECTION---------------- */
 
 
 /*------------FOOTER SECTION---------*/
 #footer{
-    background-image: url("../images/skill-white.jpg"); 
-    background-size:cover;
-    background-position:center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-attachment: fixed;  
-    height: 800px;
-    min-height: 100%;
-    margin-top: 40%;
-   
+    background-color:#343a40;
+    color: white;
+    height: 60px;
+    text-align: center;
   }
+#footer .row .col-md-12{
+    margin-top: auto;
+}
 
-  #footer #footer-text{
+ #footer #footer-text{
     position: relative;
     text-align: center;
-    top:100px;
     font-weight: bold;
     color: #ffffff;
-
-
   }
+
+.footer-copyright{
+    background-color:black;
+    height: 60px;
+}
+
+ .footer-copyright p{
+    font-size: small;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
 /*------------END OF FOOTER SECTION---------*/
 
 
