@@ -10,13 +10,22 @@
     grey:#ebebeb;
  */
 
+
+ html,body{
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
+    color: #505962;
+ }
 .wrap{
      /* makes sure all the content stays in the browser window */
     overflow-x: hidden;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #505962;
-
+    overflow-y: hidden;
+    
 }
+
+
 
 /* ------NAVBAR------ */
 .navbar {
@@ -24,14 +33,13 @@
     font-weight:bold;
     font-size:.9rem;
     letter-spacing: .1rem;
-    /* emphasis the transparency */
-     /* background:rgba(0,0,0,.6)!important;  */
+    
 }
-
 
 /* for the image */
 .navbar-brand img {
     height: 2rem;
+    width: 150px;
 }
 
 /* for the unorderd list */
@@ -55,12 +63,15 @@
     color: tomato;
 }
 
+/*------------WEATHER SECTION---------*/
+
+/*------------END OF WEATHER SECTION---------*/
 
 /*--------SLIDER-------- */
 
 /* for the image slider */
 .carousel-item{
-    height:100vh;
+    height:80vh;
     color:white;
 }
 
@@ -74,100 +85,360 @@
     background:red;
     color:white;
 }
-/*------- lessons/ rentals-------- */
 
+/* --------------------- */
+
+/*-------LESSONS/RENTALS-------- */
 .row {
-    margin-top: 50px; 
-    
-}
-.row .col-md-4{
+    margin-top: 50px;
+ 
+ }
+ .row .col-md-4{
     padding: 40px;
-}
-
-.row .col-md-4 .card-body{
+ }
+ 
+ .row .col-md-4 .card-body{
     text-align: center;
     background-color:#f4f8fa;
-    
-}
-.row .col-md-4 .card-body:hover{
+ 
+ }
+ .row .col-md-4 .card-body:hover{
     cursor: pointer;
     background-color:#f4f8fa;
-    
+ 
     box-shadow: 10px 10px 5px grey;
-}
-.row .col-md-4 .p-3 .font-weight-medium {
-
+ }
+ .row .col-md-4 .p-3 .font-weight-medium {
+ 
     font-weight: 500;
-
-}.row .col-md-4 .p-3 .subtitle{
+ 
+ }.row .col-md-4 .p-3 .subtitle{
     color: #8d97ad;
     line-height: 24px;
-}
-
-.row .col-md-4 .p-3 .list-inline{
+ }
+ 
+ .row .col-md-4 .p-3 .list-inline{
     text-align: justify;
     font-size: 14px;
-}
-
-.row .col-md-4 .p-3 .list-inline .py-1 .fa-check-circle{
-
-    color: #ff0000; 
-}
-
-.row .col-md-4 .p-3 .pricing .price{
+ }
+ 
+ .row .col-md-4 .p-3 .list-inline .py-1 .fa-check-circle{
+ 
+    color: #ff0000;
+ }
+ 
+ .row .col-md-4 .p-3 .pricing .price{
     color: black;
     font-size: 12px;
-}
+ }
+ 
+/*------- END OF LESSONS/RENTALS------- */
 
-/* ----------------CONTACTS FORM---------------- */
 
-#contacts{
+/*------------ABOUT SECTION---------*/
+#about{
+    background-image: url("../images/two-mzungu.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;  
+    height: 900px;
+    color: white;
+    position: relative;
+    padding-top: 50px;
+    
+  }
+
+  #about h3{
+    text-align: center;
+  }
+/*------------END OF ABOUT SECTION---------*/
+
+/*----------------CONTACTS FORM---------------- */
+  #contacts{
     /* font-family: 'Courier New', Courier, monospace; */
+    background-image: url("../images/coral-mzungu.jpg"); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    background-attachment: fixed;  
     font-weight: bold;
+    height: 900px;
+    min-height: 100%;
+    padding: 30px;
+    color:white;
+
+ }
+ 
+ #contacts .row {
+    margin-left: 100px;
+ }
+
+ #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #name{
+     height: 50px;
+     border: none;
+ }
+
+ #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #email{
+    height: 50px;
+    border: none;
 }
 
-#contacts .row {
-    margin-left: 100px;
+#contacts .mb-4 .row .col-md-9 #contact-form .col-md-12 .md-form #subject{
+    height: 50px;
+    border: none;
 }
+
+ #contacts .col-md-9 .row .col-md-12 .md-form #message{
+    height: 120px; 
+ }
+
+#contacts .col-md-9 .row .col-md-12 .btn-primary{
+    margin-top: 20px;
+}
+ 
+/*----------------END OF CONTACTS FORM---------------- */
+
+
+/* ----------------GEOlOCATION SECTION---------------- */
+ #googleMap{
+    width:100%;
+    height:600px;
+}
+/* ----------------END OF GEOLOCATION SECTION---------------- */
+
+
+/*------------FOOTER SECTION---------*/
+#footer{
+    background-color:#343a40;
+    color: white;
+    height: 60px;
+    text-align: center;
+  }
+#footer .row .col-md-12{
+    margin-top: auto;
+}
+
+ #footer #footer-text{
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+  }
+
+.footer-copyright{
+    background-color:black;
+    height: 60px;
+}
+
+ .footer-copyright p{
+    font-size: small;
+    padding-top: 20px;
+    text-align: center;
+
+}
+
+/*------------END OF FOOTER SECTION---------*/
+
 
 /*-------------------MEDIA QUERIES----------------*/
-@media only screen and (max-width: 768px){
 
+/*---------------TABLET MAX-WIDTH 768px-------------------*/
+@media only screen and (max-width: 768px){
     .navbar{
         font-size: small;
     }
-    
-    /* ---------slider-----------*/
-    
 
+    /* ---------slider-----------*/
+    /* for the image slider */
+    .carousel-item{
+        height:60vh;
+          }
+     
+        .carousel-caption{
+            position: absolute;
+            font-weight:bold;
+            top:80px;
+        }
+     
+        .carousel-caption h1{
+            font-size: medium;
+        }
+     
+        .carousel-caption h3{
+            font-size: medium;
+        }
+     
+        .carousel-caption a {
+            font-size: medium;
+        }
+
+    /*------- About Us Section--------*/
+    #about{
+        height: 850px;
+        color: white;
+        position: relative;
+        padding-top: 25px;
+        
+      }
+    
+    #about h3{
+       font-size: medium;
+       }
+
+    /*------------contacts section-----------*/
+    #contacts{
+        font-size: medium;
+        height: 400px;
+    }
+ 
+    #contacts h2{
+        font-size: 30px;
+    }
+    #contacts .row{
+        margin: 0px;
+    }
+
+     #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #name{
+        margin-top: 20px;
+        margin-left: 70px;
+     }
+    
+     #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #email{
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    
+    #contacts .mb-4 .row .col-md-9 #contact-form .col-md-12 .md-form #subject{
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    
+     #contacts .col-md-9 .row .col-md-12 .md-form #message{
+        margin-top: 20px;
+        margin-left: 70px;
+     }
+    
+    #contacts .col-md-9 .row .col-md-12 .btn-primary{
+        margin-top: 20px;
+        margin-left: 70px;
+        width: 470px;
+    }
+
+    /*--------------footer-----------------*/
+    .container{
+    font-size: medium;
+    }
+
+    /*--------------copyright-----------------*/
+    .footer-copyright{
+    font-size: medium;
+}
+ 
+ 
+
+}
+ 
+
+/* ---------PHONE MAX-WIDTH 480px------------ */
+@media only screen and (max-width: 480px){
+    .navbar{
+        font-size: small;
+    }
+ 
+    /* ---------slider-----------*/
+    /* for the image slider */
+    .carousel-item{
+    height:50vh;
+      }
+ 
     .carousel-caption{
         position: absolute;
         font-weight:bold;
+        top:100px;
     }
-
+ 
     .carousel-caption h1{
         font-size: small;
     }
-
+ 
     .carousel-caption h3{
         font-size: small;
     }
-
+ 
     .carousel-caption a {
         font-size: small;
     }
+
+   
+
+    /*------- About Us Section--------*/
+    #about{
+        height: 1300px;
+        color: white;
+        position: relative;
+        padding-top: 15px;
+        
+      }
     
+      #about h3{
+      font-size: small;
+      }
+
     /*------- contact form-------- */
     #contacts{
         font-size: small;
     }
-
-    #contacts .row{
-        margin: 0px 10px 0px 10px;
+ 
+    #contacts h2{
+        font-size: 25px;
     }
-}
+    #contacts .row{
+        margin: 0px 0px 0px 0px;
+        
+    }
 
-@media only screen and (max-width: 480px){
+     #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #name{
+        margin-top: 20px;
+        margin-left: 0px;
+
+     }
     
+     #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #email{
+        margin-top: 20px;
+        margin-left: 0px;
+
+    }
+    
+    #contacts .mb-4 .row .col-md-9 #contact-form .col-md-12 .md-form #subject{
+        margin-top: 20px;
+        margin-left: 0px;
+
+    }
+    
+     #contacts .col-md-9 .row .col-md-12 .md-form #message{
+        margin-top: 20px;
+        margin-left: 0px;
+
+     }
+    
+    #contacts .col-md-9 .row .col-md-12 .btn-primary{
+        margin-top: 20px;
+        width: 100px;
+        margin-left: 0px;
+
+    }
+ }
+ 
+/*--------------footer-----------------*/
+.container{
+    font-size: small;
+    }
+
+/*--------------copyright-----------------*/
+.footer-copyright{
+    font-size: small;
 }
  
