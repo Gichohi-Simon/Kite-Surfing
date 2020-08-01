@@ -3,6 +3,8 @@
 if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src='https://weatherwidget.io/js/widget.min.js';
 fjs.parentNode.insertBefore(js,fjs);}}(document,'script','weatherwidget-io-js');
 
+
+
 /*contact form validation  */
 function validateForm() {
     var name =  document.getElementById('name').value;
@@ -33,4 +35,3 @@ function validateForm() {
     }
     document.querySelector('.status').innerHTML = "Sending...";
   }
-
