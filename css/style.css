@@ -9,13 +9,12 @@
     black:#000000;
     grey:#ebebeb;
  */
-
 .wrap{
      /* makes sure all the content stays in the browser window */
     overflow-x: hidden;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-y: hidden;
+    font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
     color: #505962;
-    
 }
 
 
@@ -26,8 +25,7 @@
     font-weight:bold;
     font-size:.9rem;
     letter-spacing: .1rem;
-    /* emphasis the transparency */
-     /* background:rgba(0,0,0,.6)!important;  */
+    
 }
 
 /* for the image */
@@ -57,12 +55,15 @@
     color: tomato;
 }
 
+/*------------WEATHER SECTION---------*/
+
+/*------------END OF WEATHER SECTION---------*/
 
 /*--------SLIDER-------- */
 
 /* for the image slider */
 .carousel-item{
-    height:100vh;
+    height:80vh;
     color:white;
 }
 
@@ -78,10 +79,6 @@
 }
 
 /* --------------------- */
-#about,#contacts,#footer{
-    position: relative;
-    background-attachment: fixed;  
-}
 
 /*-------LESSONS/RENTALS-------- */
 .row {
@@ -150,23 +147,6 @@
   }
 /*------------END OF ABOUT SECTION---------*/
 
-
-/*------------WEATHER SECTION---------*/
-#todays-weather{
-    height: 600px;
-    text-align: center;
-    text-transform: capitalize;
-    font-size: 30px;
-    font-weight: bold;
-    font-style: oblique;
-}
-
-#todays-weather p{
-    padding-top: 20px;
-}
-/*------------END OF WEATHER SECTION---------*/
-
-
 /*----------------CONTACTS FORM---------------- */
   #contacts{
     /* font-family: 'Courier New', Courier, monospace; */
@@ -177,7 +157,7 @@
     position: relative;
     background-attachment: fixed;  
     font-weight: bold;
-    height: 800px;
+    height: 900px;
     min-height: 100%;
     padding: 30px;
     color:white;
@@ -237,7 +217,7 @@
     position: relative;
     text-align: center;
     font-weight: bold;
-    color: #ffffff;
+    color: black;
   }
 
 .footer-copyright{
@@ -263,11 +243,15 @@
     }
  
     /* ---------slider-----------*/
- 
+    /* for the image slider */
+    .carousel-item{
+    height:50vh;
+      }
  
     .carousel-caption{
         position: absolute;
         font-weight:bold;
+        top:100px;
     }
  
     .carousel-caption h1{
@@ -281,17 +265,65 @@
     .carousel-caption a {
         font-size: small;
     }
- 
+
+   
+
+    /*------- About Us Section--------*/
+    #about{
+        height: 1300px;
+        color: white;
+        position: relative;
+        padding-top: 15px;
+        
+      }
+    
+      #about h3{
+      font-size: small;
+      }
+
     /*------- contact form-------- */
     #contacts{
         font-size: small;
     }
  
+    #contacts h2{
+        font-size: 25px;
+    }
     #contacts .row{
         margin: 0px 10px 0px 10px;
     }
+
+     #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #name{
+        margin-top: 20px;
+     }
+    
+     #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #email{
+        margin-top: 20px;
+    }
+    
+    #contacts .mb-4 .row .col-md-9 #contact-form .col-md-12 .md-form #subject{
+        margin-top: 20px;
+    }
+    
+     #contacts .col-md-9 .row .col-md-12 .md-form #message{
+        margin-top: 20px;
+     }
+    
+    #contacts .col-md-9 .row .col-md-12 .btn-primary{
+        margin-top: 20px;
+        width: 250px;
+    }
  }
  
+ /*--------------footer-----------------*/
+    .container{
+        font-size: small;
+    }
+
+/*--------------copyright-----------------*/
+.footer-copyright{
+    font-size: small;
+}
  @media only screen and (max-width: 480px){
  
  }
