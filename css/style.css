@@ -18,13 +18,6 @@
     font-family: 'Segoe UI', Tahoma,  Verdana, sans-serif;
     color: #505962;
  }
-.wrap{
-     /* makes sure all the content stays in the browser window */
-    overflow-x: hidden;
-    overflow-y: hidden;
-    
-}
-
 
 
 /* ------NAVBAR------ */
@@ -115,10 +108,11 @@
  }.row .col-md-4 .p-3 .subtitle{
     color: #8d97ad;
     line-height: 24px;
- }
- 
- .row .col-md-4 .p-3 .list-inline{
-    text-align: justify;
+}
+
+.list-inline{
+    
+    text-align: center;
     font-size: 14px;
  }
  
@@ -131,7 +125,71 @@
     color: black;
     font-size: 12px;
  }
- 
+
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    
+    border: 1px solid #888;
+    width: 80%;
+    animation-name: modalopen;
+    animation-duration: 1s;
+
+}
+.modal-header h5{
+    margin: 0;
+}
+.modal-header{
+    background-color: red;
+    padding: 20px;
+    color: white;
+}
+.modal-body{
+    padding: 10px 20px;
+}
+.myBtn_multi:hover{
+    color: red;
+    cursor: pointer;
+}
+.btn:hover{
+    color: red;
+    cursor: pointer;
+}
+
+/* The Close Button */
+.close {
+    color: white;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+  @keyframes modalopen{
+    from{opacity: 0;}
+    to{opacity: 1;}
+}
 /*------- END OF LESSONS/RENTALS------- */
 
 
@@ -184,6 +242,9 @@
  #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #email{
     height: 50px;
     border: none;
+}
+.fa-check-circle{
+    color: red;
 }
 
 #contacts .mb-4 .row .col-md-9 #contact-form .col-md-12 .md-form #subject{
