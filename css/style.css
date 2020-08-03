@@ -65,7 +65,7 @@
 /* for the image slider */
 .carousel-item{
     height:80vh;
-    color:white;
+    color:black;
 }
 
 .carousel-caption{
@@ -202,7 +202,7 @@
 
 /*------------ABOUT SECTION---------*/
 #about{
-    background-image: url("../images/two-mzungu.jpg"); 
+    background-image: url("../images/Logo-light.png"); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -343,7 +343,23 @@
             font-size: medium;
         }
 
-    /*------- About Us Section--------*/
+    /*----------modal-----------------*/
+     #lessons .mb-4 h3{
+         font-size: medium;
+     }
+
+     #lessons .mb-4 .row{
+         font-size: small;
+     }
+
+     #lessons .mb-4 .row h5{
+        font-size: small;
+    }
+
+
+
+
+    /*----------About Us Section--------*/
     #about{
         height: 850px;
         color: white;
@@ -371,28 +387,28 @@
 
      #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #name{
         margin-top: 20px;
-        margin-left: 70px;
+        
      }
     
      #contacts .mb-4 .row .col-md-9 #contact-form .col-md-6 .md-form #email{
         margin-top: 20px;
-        margin-left: 70px;
+       
     }
     
     #contacts .mb-4 .row .col-md-9 #contact-form .col-md-12 .md-form #subject{
         margin-top: 20px;
-        margin-left: 70px;
+       
     }
     
      #contacts .col-md-9 .row .col-md-12 .md-form #message{
         margin-top: 20px;
-        margin-left: 70px;
+        
      }
     
     #contacts .col-md-9 .row .col-md-12 .btn-primary{
         margin-top: 20px;
         margin-left: 70px;
-        width: 470px;
+
     }
 
     /*--------------footer-----------------*/
