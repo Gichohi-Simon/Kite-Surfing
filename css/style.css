@@ -1,16 +1,4 @@
- /*
- this is a bad habit, its just for us to see the color codes.
-    color codes
-
-    white:#ffffff;
-    blood-red:#d71d1d;
-    bright-red: #ff0000;
-    dark-red:#BF0000;
-    black:#000000;
-    grey:#ebebeb;
- */
-
-
+ 
  html,body{
     height: 100%;
     width: 100%;
@@ -24,23 +12,16 @@
 .navbar {
     text-transform: uppercase;
     font-weight:bold;
-    font-size:.9rem;
+    font-size:.7rem;
     letter-spacing: .1rem;
     
 }
 
 /* for the image */
 .navbar-brand img {
-    height: 2rem;
-    width: 150px;
+    height: 4rem;
+    width: 160px;
 }
-
-/* for the unorderd list */
-/* .navbar-nav li{
-    padding-right: 7rem;
-} */
-
-/* overrides the link colors */
 
 .navbar-dark .navbar-nav .nav-link{
     color: white;
@@ -56,9 +37,6 @@
     color: tomato;
 }
 
-/*------------WEATHER SECTION---------*/
-
-/*------------END OF WEATHER SECTION---------*/
 
 /*--------SLIDER-------- */
 
@@ -316,7 +294,7 @@
 /*---------------TABLET MAX-WIDTH 768px-------------------*/
 @media only screen and (max-width: 768px){
     .navbar{
-        font-size: small;
+        font-size: .7rem;
     }
 
     /* ---------slider-----------*/
@@ -335,7 +313,7 @@
             font-size: medium;
         }
      
-        .carousel-caption h3{
+        .carousel-caption h4{
             font-size: medium;
         }
      
@@ -344,7 +322,7 @@
         }
 
     /*----------modal-----------------*/
-     #lessons .mb-4 h3{
+     #lessons .mb-4 h4{
          font-size: medium;
      }
 
@@ -421,15 +399,13 @@
     font-size: medium;
 }
  
- 
-
 }
  
 
 /* ---------PHONE MAX-WIDTH 480px------------ */
 @media only screen and (max-width: 480px){
     .navbar{
-        font-size: small;
+        font-size: .7rem;
     }
  
     /* ---------slider-----------*/
