@@ -180,20 +180,14 @@
 
 /*------------ABOUT SECTION---------*/
 #about{
-    background-image: url("../images/Logo-light.png"); 
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-    background-attachment: fixed;  
-    height: 900px;
+    height: 400px;
     color: white;
     position: relative;
     padding-top: 50px;
     
   }
 
-  #about h3{
+  #about h5{
     text-align: center;
   }
 /*------------END OF ABOUT SECTION---------*/
@@ -339,14 +333,14 @@
 
     /*----------About Us Section--------*/
     #about{
-        height: 850px;
+        height: 400px;
         color: white;
         position: relative;
         padding-top: 25px;
         
       }
     
-    #about h3{
+    #about h5{
        font-size: medium;
        }
 
@@ -436,7 +430,7 @@
 
     /*------- About Us Section--------*/
     #about{
-        height: 1300px;
+        height: 800px;
         color: white;
         position: relative;
         padding-top: 15px;
