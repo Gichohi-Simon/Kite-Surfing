@@ -317,18 +317,16 @@
 
     /*----------modal-----------------*/
      #lessons .mb-4 h4{
-         font-size: medium;
+         font-size: small;
      }
 
      #lessons .mb-4 .row{
          font-size: small;
      }
 
-     #lessons .mb-4 .row h5{
+     #lessons .mb-4 .row h6{
         font-size: small;
     }
-
-
 
 
     /*----------About Us Section--------*/
@@ -336,8 +334,7 @@
         height: 400px;
         color: white;
         position: relative;
-        padding-top: 25px;
-        
+        padding-top: 25px;        
       }
     
     #about h5{
@@ -347,7 +344,8 @@
     /*------------contacts section-----------*/
     #contacts{
         font-size: medium;
-        height: 400px;
+        height: 600px;
+        background-attachment: scroll;
     }
  
     #contacts h2{
@@ -434,7 +432,7 @@
         color: white;
         position: relative;
         padding-top: 15px;
-        
+    
       }
     
       #about h3{
@@ -444,6 +442,8 @@
     /*------- contact form-------- */
     #contacts{
         font-size: small;
+        background-attachment: scroll;
+        height: 600px;
     }
  
     #contacts h2{
