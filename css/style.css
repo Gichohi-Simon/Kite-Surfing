@@ -152,6 +152,11 @@
     cursor: pointer;
      border: none; 
 }
+#myBtn {
+    /* border: ; */
+    padding: 8px;
+
+}
 .btn:hover{
     color: red;
     cursor: pointer;
