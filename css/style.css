@@ -34,7 +34,7 @@
 }
 
 .navbar-dark .navbar-nav .nav-link:hover{
-    color: tomato;
+    color:#28a745;
 }
 
 
@@ -103,7 +103,7 @@
  
  .row .col-md-4 .p-3 .list-inline .py-1 .fa-check-circle{
  
-    color: #ff0000;
+    color: #28a745;
  }
  
 
@@ -141,7 +141,7 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .modal-header{
-    background-color: red;
+    background-color:#28a745;
     padding: 20px;
     color: white;
 }
@@ -154,7 +154,7 @@
     
 }
 .myBtn_multi:hover{
-    color:red;
+    color:#28a745;
     cursor: pointer;
      border: none; 
 }
@@ -164,7 +164,7 @@
 
 }
 .btn:hover{
-    color: red;
+    color: #28a745;
     cursor: pointer;
 }
 
@@ -185,6 +185,10 @@
   @keyframes modalopen{
     from{opacity: 0;}
     to{opacity: 1;}
+}
+
+.fa-check-circle{
+    color: #28a745;
 }
 /*------- END OF LESSONS/RENTALS------- */
 
@@ -237,9 +241,7 @@
     height: 50px;
     border: none;
 }
-.fa-check-circle{
-    color: red;
-}
+
 
 #contacts .mb-4 .row .col-md-9 #contact-form .col-md-12 .md-form #subject{
     height: 50px;
@@ -316,6 +318,7 @@
             position: absolute;
             font-weight:bold;
             top:20px;
+            font-size: small;
         }
      
         .carousel-caption h1{
@@ -323,15 +326,22 @@
         }
      
         .carousel-caption h5{
-            font-size: medium;
+            font-size: small;
         }
      
         .carousel-caption a {
-            font-size: medium;
+            font-size: small;
+        }
+
+        .carousel-caption .btn-danger{
+            font-size: small;
         }
 
     /*----------modal-----------------*/
-     #lessons .mb-4 h4{
+    #lessons{
+        font-size: small;
+    }
+     #lessons .mb-4 h5{
          font-size: small;
      }
 
@@ -349,20 +359,21 @@
         height: 400px;
         color: white;
         position: relative;
-        padding-top: 25px;        
+        padding-top: 25px;
+        font-size: small;     
       }
     
     #about h5{
-       font-size: medium;
+       font-size: small;
        }
 
     /*------------contacts section-----------*/
     #contacts{
-        font-size: medium;
+        font-size: small;
         height: 600px;
         background-attachment: scroll;
     }
- 
+    
     #contacts h2{
         font-size: 30px;
     }
@@ -418,7 +429,7 @@
     /* ---------slider-----------*/
     /* for the image slider */
     .carousel-item{
-    height:100vh;
+    height:70vh;
       }
  
     .carousel-caption{
